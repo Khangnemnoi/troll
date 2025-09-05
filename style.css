@@ -52,7 +52,6 @@ button:hover {
   display: none;
 }
 
-}
 .popup-box {
   background: #fff;
   padding: 20px;
@@ -72,4 +71,3 @@ button:hover {
   0% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(-600px); opacity: 0; }
 }
-
