@@ -1,6 +1,7 @@
 const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 const popup = document.getElementById("popup");
+const closeBtn = document.getElementById("closeBtn"); // nút ❌
 
 // Hàm di chuyển + thu nhỏ nút "Không bao giờ"
 function moveButton() {
@@ -32,6 +33,11 @@ yesBtn.addEventListener("click", () => {
   for (let i = 0; i < 20; i++) {
     dropHeart();
   }
+});
+
+// Nút đóng popup ❌
+closeBtn.addEventListener("click", () => {
+  popup.classList.add("hidden");
 });
 
 // Hàm thả tim
